@@ -17,5 +17,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
         script: |
-          cd /path/to/your/website/directory
-          git pull origin main
+          cd /var/www/html
+          git pull origin master
